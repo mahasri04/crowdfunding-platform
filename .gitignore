@@ -7,3 +7,4 @@ test.db
 node_modules/
 crowd_sdk/
 frontend/node_modules/
+frontend/build/
