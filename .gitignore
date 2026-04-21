@@ -1,0 +1,9 @@
+env/
+__pycache__/
+.pytest_cache/
+*.pyc
+crowdfunding.db
+test.db
+node_modules/
+crowd_sdk/
+frontend/node_modules/
