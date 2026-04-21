@@ -1,45 +1,61 @@
 .app-shell {
   max-width: 920px;
-  margin: 0 auto;
+  margin: 1rem auto 2rem;
   padding: 1.25rem;
   font-family: Inter, Arial, sans-serif;
-  color: #0f172a;
+  color: #13233a;
+  background: #ffffffd9;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(59, 130, 246, 0.14);
+  backdrop-filter: blur(2px);
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 48%, #fff7ed 100%);
 }
 
 .app-header {
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
+  border-radius: 14px;
+  padding: 1rem;
+  color: #ffffff;
+  background: linear-gradient(120deg, #2563eb 0%, #7c3aed 55%, #db2777 100%);
 }
 
 .app-header h1 {
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.3rem;
+  letter-spacing: 0.2px;
 }
 
 .app-header p {
   margin: 0;
-  color: #475569;
+  color: #e0e7ff;
 }
 
 .error-banner {
-  background: #fee2e2;
-  color: #991b1b;
-  border: 1px solid #fecaca;
+  background: #fff1f2;
+  color: #9f1239;
+  border: 1px solid #fecdd3;
   padding: 0.75rem;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 1rem;
 }
 
 .panel {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 8px 22px rgba(37, 99, 235, 0.08);
 }
 
 .panel h2 {
   margin-top: 0;
   margin-bottom: 0.75rem;
+  color: #1e3a8a;
 }
 
 .form-grid {
@@ -51,38 +67,40 @@
 
 input,
 select {
-  border: 1px solid #cbd5e1;
+  border: 1px solid #bfdbfe;
   border-radius: 8px;
   padding: 0.55rem 0.65rem;
   font-size: 0.95rem;
+  background: #ffffff;
 }
 
 input:focus,
 select:focus {
-  outline: 2px solid #bfdbfe;
+  outline: 2px solid #c7d2fe;
   border-color: #3b82f6;
 }
 
 .btn-primary {
   border: none;
   border-radius: 8px;
-  background: #2563eb;
+  background: linear-gradient(120deg, #2563eb 0%, #7c3aed 100%);
   color: #fff;
   padding: 0.6rem 0.8rem;
   font-weight: 600;
   cursor: pointer;
+  box-shadow: 0 6px 14px rgba(59, 130, 246, 0.22);
 }
 
 .btn-primary:hover {
-  background: #1d4ed8;
+  filter: brightness(0.96);
 }
 
 .campaign-card {
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
   padding: 0.8rem;
   margin-bottom: 0.6rem;
-  background: #f8fafc;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);
 }
 
 .campaign-card h3 {
@@ -98,7 +116,7 @@ select:focus {
 .status {
   margin: 0.2rem 0 0.45rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #1d4ed8;
 }
 
 .native-progress {
@@ -119,7 +137,7 @@ select:focus {
 
 .chart-track {
   width: 100%;
-  background: #e2e8f0;
+  background: #dbeafe;
   border-radius: 999px;
   height: 12px;
   overflow: hidden;
