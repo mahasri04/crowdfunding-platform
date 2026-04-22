@@ -1,3 +1,9 @@
+html,
+body,
+#root {
+  background: #e5e7eb;
+}
+
 .app-shell {
   max-width: 920px;
   margin: 1rem auto 2rem;
@@ -10,17 +16,12 @@
   box-shadow: 0 6px 18px rgba(17, 24, 39, 0.08);
 }
 
-body {
-  margin: 0;
-  background: #f3f4f6;
-}
-
 .app-header {
-  margin-bottom: 1.1rem;
+  margin-bottom: 1rem;
+  background: #1f4f8a;
+  color: #ffffff;
   border-radius: 8px;
   padding: 1rem;
-  color: #ffffff;
-  background: #1f4f8a;
 }
 
 .app-header h1 {

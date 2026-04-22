@@ -8,6 +8,12 @@ This project implements an intern coding challenge crowdfunding platform with:
 - SDK generation workflow via OpenAPI Generator CLI
 - Windows setup and run batch scripts
 
+## Application Screenshots
+
+![Crowdfunding Platform UI - Top Section](assets/application-screenshot-1.png)
+
+![Crowdfunding Platform UI - Progress and Chart Section](assets/application-screenshot-2.png)
+
 ## Features
 
 - Create campaigns: `POST /campaigns/`
