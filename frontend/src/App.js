@@ -162,7 +162,7 @@ function App() {
       </section>
 
       <section className="panel">
-        <h2>Funding Chart (Bonus)</h2>
+        <h2>Funding Chart</h2>
         {campaigns.map((c) => {
           const percent = c.goal === 0 ? 0 : Math.min(100, Math.round((c.pledged / c.goal) * 100));
           return (
